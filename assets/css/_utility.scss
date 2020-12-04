@@ -1,0 +1,22 @@
+.btn
+{
+    border: none;
+    padding: 0.8rem 2.2rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+
+    &-cta
+    {
+        border: 1.5px solid $color-cta;
+        margin-right: 2rem;
+        background-color: $color-cta;
+        color: #ffffff;
+    }
+
+    &-ghost
+    {
+        border: 1.5px solid #fff;
+        background-color: transparent;
+        color: #ffffff;
+    }
+}

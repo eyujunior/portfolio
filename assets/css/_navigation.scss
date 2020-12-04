@@ -1,0 +1,44 @@
+.nav-container
+{
+    padding: 2rem 3rem;
+    background-color: $color-darker-blue;
+    font-family: $font-primary;
+    
+
+    .logo
+    {
+        font-size: 1.9rem;
+        color: #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+    .header
+    {
+        @include flexbetween;
+    }
+    .nav 
+    {
+        font-size: 1.6rem;
+        &-list
+        {
+            @include flexbetween;
+        }
+
+        &-item
+        {
+           
+            a 
+            {
+                color: #ffffff;
+            }
+           
+            &:not(:last-child)
+            {
+                margin-right: 4rem;
+            }
+        }
+    }
+
+}

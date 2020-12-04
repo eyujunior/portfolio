@@ -1,0 +1,62 @@
+.work
+{
+    padding: 0rem 3rem;
+    text-align: center;
+    
+
+    .watermark-title
+    {
+        font-size: clamp(10rem,34vw, 80rem);
+        opacity: .3;
+       margin-top: -4rem;
+    }
+
+    .featured
+    {
+        position: relative;
+
+        &-desc
+        {
+            width: 90%;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+    }
+    .featured::before
+    {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #e5d5fa;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .inner
+    {
+        margin-bottom: 8rem;
+    }
+    .inner > *
+    {
+        margin-bottom: 1.5rem;
+        
+    }
+    .featured-title
+    {
+        text-transform: uppercase;
+    }
+    .sub-title
+    {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color-dark-blue;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        margin-bottom: .8rem;
+
+    }
+    
+}
