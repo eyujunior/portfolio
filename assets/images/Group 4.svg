@@ -30,8 +30,8 @@
         <rect x="1" y="1" width="97" height="97" rx="19" fill="none"/>
       </g>
     </g>
-    <path id="Path_6" data-name="Path 6" d="M42.5,0A42.5,42.5,0,1,1,0,42.5,42.5,42.5,0,0,1,42.5,0Z" transform="translate(981 768)" fill="#320b63" opacity="0.3"/>
-    <circle id="Ellipse_9" data-name="Ellipse 9" cx="42.5" cy="42.5" r="42.5" transform="translate(1084 464)" fill="#320b63" opacity="0.3"/>
-    <circle id="Ellipse_5" data-name="Ellipse 5" cx="42.5" cy="42.5" r="42.5" transform="translate(981 164)" fill="#5112a2" opacity="0.34"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="42.5" cy="42.5" r="42.5" transform="translate(1091 464)" fill="#2df5f5" opacity="0.3"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="42.5" cy="42.5" r="42.5" transform="translate(981 164)" fill="#ff595e" opacity="0.34"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="42.5" cy="42.5" r="42.5" transform="translate(981 768)" fill="#ff595e" opacity="0.34"/>
   </g>
 </svg>

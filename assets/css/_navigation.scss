@@ -1,44 +1,47 @@
-.nav-container
-{
-    padding: 2rem 3rem;
+.nav-container {
     background-color: $color-darker-blue;
     font-family: $font-primary;
-    
 
-    .logo
+    
+    
+    .bars
     {
+        display: none;
+        fill: #fff;
+        width: 2rem;
+        position: absolute;
+        top: 2rem;
+        right: 3rem;
+        cursor: pointer;
+    }
+
+    .logo {
         font-size: 1.9rem;
-        color: #ffffff;
+        color:  #2DF5F5;
         font-weight: bold;
         text-transform: uppercase;
     }
 
 
-    .header
-    {
+
+    .header {
+        padding: 2rem 5rem;
         @include flexbetween;
     }
-    .nav 
-    {
+    .nav {
         font-size: 1.6rem;
-        &-list
-        {
+        &-list {
             @include flexbetween;
         }
 
-        &-item
-        {
-           
-            a 
-            {
+        &-item {
+            a {
                 color: #ffffff;
             }
-           
-            &:not(:last-child)
-            {
+
+            &:not(.contact) {
                 margin-right: 4rem;
             }
         }
     }
-
 }

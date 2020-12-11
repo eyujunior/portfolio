@@ -1,5 +1,6 @@
 .btn
 {
+    cursor: pointer;
     border: none;
     padding: 0.8rem 2.2rem;
     font-size: 1.6rem;
@@ -19,4 +20,22 @@
         background-color: transparent;
         color: #ffffff;
     }
+
+    &-secondary
+    {
+        border: 1.5px solid #fff;
+        background-color: $color-teal;
+        color: #ffffff;
+    }
+}
+
+.watermark-title {
+    font-size: clamp(10rem, 34vw, 80rem);
+    opacity: .9;
+    //margin-top: -5rem;
+    margin-bottom: 5rem;
+    color: #e5d5fa;
+    z-index: -1;
+    position: relative;
+    text-align: center;
 }
