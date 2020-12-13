@@ -4,6 +4,8 @@
         top: -200%;
         opacity: 0;
         transition: top, opacity 0.5s ease-in-out;
+
+        
     }
 
     .nav-container {
@@ -20,7 +22,7 @@
             position: absolute;
             top: 0;
             right: 0;
-            background-color: #190535;
+            background-color: $color-darker-blue;
             padding: 2rem 4rem;
             width: 100%;
 
@@ -60,7 +62,7 @@
        {
        margin-left: 10rem;
        width: 40rem;
-       height: 40rem;
+       height: 42rem;
        }
     }
 
@@ -202,9 +204,8 @@
             }
         }
 
-        #exit {
-            display: none;
-        }
+        
+        
     }
 
     .hero {
@@ -251,8 +252,9 @@
         .hero-img {
             display: block;
             width: 35rem;
-            height: 35rem;
+            height: 37rem;
             border-radius: 50%;
+           box-shadow:  0 2rem 4rem rgba($color-dark-blue, 0.5);
         }
     }
 }
@@ -263,9 +265,26 @@
             width: 40rem;
             height: 40rem;
         }
+
+
+        
+       
     }
 
     .project {
-        margin-bottom: 10rem;
+        margin-bottom: 12rem !important;
+
+        .circle
+        {
+            z-index: -1;
+        }
     }
+}
+@media screen and (min-width: 650px) {
+
+    #exit
+    {
+        display: none;
+    }
+
 }

@@ -35,6 +35,19 @@
         }
 
         &-item {
+           
+            *:not(#exit)
+            {
+                background-color: $color-darker-blue;
+                padding: .5rem 2.5rem;
+                transition: background-color .3s ease;
+                border-radius: 5px;
+
+                &:hover 
+                {
+                    background-color: #5b09c5;
+                }
+            }
             a {
                 color: #ffffff;
             }
