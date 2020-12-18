@@ -1,14 +1,10 @@
-.types
-{
+.types {
     background-color: $color-teal;
     padding: 8rem 3rem 5rem 3rem;
     flex-direction: column;
-    box-shadow: 0 2rem 4rem rgba( 0,0,0,.1);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
 
-    
-    
-    .type
-    {
+    .type {
         background-color: #fff;
         margin-bottom: 4rem;
         text-align: center;
@@ -16,38 +12,32 @@
         width: 75%;
         max-width: 38rem;
         border-radius: 5px;
-        box-shadow: 0 2rem 3rem rgba( 0,0,0,.1);
+        box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
 
-
-        &-container
-        {
+        &-container {
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            
         }
 
-        &-icon
-        {
+        &-icon {
             margin-bottom: 2rem;
-            fill: $color-teal;
-            height: 3rem;
+            stroke: $color-teal;
+            height: 10rem;
+            width: 13rem;
         }
-        &-title
-        {
+        &-title {
             text-transform: uppercase;
             font-size: 2rem;
-            font-weight: bold ;
+            font-weight: bold;
             margin-bottom: 2rem;
         }
 
-        &-desc
-        {
+        &-desc {
             font-size: 1.4rem;
             margin-bottom: 1rem;
             line-height: 1.5;
         }
     }
-
 }

@@ -1,37 +1,31 @@
-.hero
-{
+.hero {
     background-color: $color-dark-blue;
     text-align: center;
     color: #ffffff;
-    
+
     height: 85vh;
 
-    .content
-    {
+    .content {
         padding: 4rem 4rem;
         height: 100%;
         display: flex;
         flex-direction: column;
-       
+
         justify-content: center;
     }
 
-    .heading-primary
-    {
+    .heading-primary {
         font-size: 3rem;
         margin-bottom: 1rem;
     }
 
-    .sub-title
-    {
+    .sub-title {
         font-size: 1.7rem;
         margin-bottom: 3rem;
-        color: #2DF5F5;
+        color: #2df5f5;
     }
 
-
-    .hero-img
-    {
+    .hero-img {
         display: none;
     }
 }

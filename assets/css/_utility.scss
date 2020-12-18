@@ -7,6 +7,11 @@
     border-radius: 5px;
     transition: all .3s ease;
 
+    a 
+    {
+        color: #ffffff;
+    }
+
     &-cta
     {
         border: 1.5px solid $color-cta;
@@ -26,6 +31,11 @@
         border: 1.5px solid #fff;
         background-color: transparent;
         color: #ffffff;
+
+        a 
+        {
+            color: #000000;
+        }
     }
 
     &-secondary
@@ -34,12 +44,29 @@
         background-color: $color-teal;
         color: #ffffff;
     }
+
+    &-white
+    {
+        color: $color-teal;
+        background-color: #fff;
+        text-transform: capitalize;
+
+        a 
+        {
+            color:$color-dark-blue;
+        }
+    }
+}
+
+.hero .btn a 
+{
+    color: #fff;
 }
 
 .watermark-title {
     font-size: clamp(10rem, 34vw, 80rem);
     opacity: .9;
-    margin-bottom: 5rem;
+    margin: -6rem 0;    
     color: #e5d5fa;
     z-index: -1;
     position: relative;
