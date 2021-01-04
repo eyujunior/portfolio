@@ -64,11 +64,12 @@
 }
 
 .watermark-title {
-    font-size: clamp(10rem, 34vw, 80rem);
-    opacity: .9;
-    margin: -6rem 0;    
-    color: #e5d5fa;
+    font-size:8rem;  
+    margin: 4rem 0rem;
+    color: $color-dark-blue;
     z-index: -1;
     position: relative;
     text-align: center;
+    z-index: 100;
+    text-transform: uppercase;
 }

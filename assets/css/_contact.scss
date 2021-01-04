@@ -4,7 +4,7 @@
    
     &-title {
         font-size: 3rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         color: $color-darker-blue;
         text-transform: uppercase;
         text-align: center;
@@ -14,7 +14,7 @@
         background: linear-gradient(to bottom, rgba($color-dark-blue, 0.6), rgba($color-darker-blue, 1)),
             url("../images/showcase.jpg");
         background-position: center;
-        height: 88.5vh;
+        height: 95vh;
         width: 100%;
 
         .form {
@@ -95,8 +95,13 @@
                 }
             }
 
+            .textarea
+            {
+                width: 100%;
+            }
+
             &-control {
-                margin-bottom: 2rem;
+                margin-bottom: 2.5rem;
                 width: 100%;
                 position: relative;
             }
